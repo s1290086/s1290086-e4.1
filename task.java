@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 public class task{
     public static void main(String[] args){
+	String name;
+	System.out.println("Who are you?");
+	Scanner sc = new Scanner(System.in);
+	System.out.printf(">");
+	name = sc.next();
+	System.out.println("Hello, "+name+"!");
 	int c,count1=0,count2=0;
 	System.out.println("Tossing a coin...");
 	for(int i = 1; i <= 3; i++){
