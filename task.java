@@ -14,5 +14,11 @@ public class task{
 	    }
 	}
 	System.out.println("Heads: "+count1+", Tails: "+count2);
+	if(count1>count2){
+	    System.out.println("You won!");
+	}
+	else{
+	    System.out.println("You lost!");
+	    }
     }
 }
